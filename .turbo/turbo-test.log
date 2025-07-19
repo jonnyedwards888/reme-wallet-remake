@@ -1,0 +1,13 @@
+
+> remelife-dashboard@1.0.0 test /Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui
+> SKIP_PREFLIGHT_CHECK=true react-scripts test --watchAll=false --coverage --passWithNoTests
+
+[1m[2mDetermining test suites to run...[22m[22m[999D[K[1mNo tests found, exiting with code 0[22m
+[999D[K
+[K[1A[999D[K
+[K[1A
+[K[1A[999D[K----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 | [31;1m                 [0m 
+----------|---------|----------|---------|---------|-------------------

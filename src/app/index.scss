@@ -1,0 +1,66 @@
+.application {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.reg-info {
+  width: 20%;
+  background-color: white;
+}
+.bg-success {
+  background-color: green;
+  color: white;
+}
+
+.bg-info-s {
+  background: #1FA599 !important;
+  color: white;
+}
+
+.popup-content {
+  width: 85% !important;
+  background: #321E32 !important;
+  margin: auto;
+  background: #fff;
+  width: 50%;
+  color: white;
+  border-radius: 22px;
+  padding: 5px;
+  border: 1px solid #d7d7d7;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .popup-content {
+    width: 85% !important;
+    background: red !important;
+    margin: auto;
+    background: #fff;
+    width: 50%;
+    color: white;
+    border-radius: 22px;
+    padding: 5px;
+    border: 1px solid #d7d7d7;
+    left: 0 !important;
+    right: 0 !important;
+  }
+}
+
+.close {
+  position: absolute;
+  float: right;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: white !important;
+  border: 1px solid;
+  border-radius: 50px;
+  cursor: pointer;
+  /* opacity: .5; */
+  top: 1rem;
+  right: 1rem;
+  width: 60px;
+  height: 60px;
+}

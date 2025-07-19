@@ -1,0 +1,126 @@
+/*
+ Media query for mobile and desktop
+ */
+$small: 460px;
+$medium: 900px;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 35px;
+  color: var(--headings-primary);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--headings-primary);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 45px;
+}
+
+.wrapper {
+  margin: 10px auto 20px;
+  align-items: center;
+}
+
+.common-wrapper {
+  background: var(--section-background);
+  @include rounded(14px);
+  padding: 35px;
+  @include box-shadow(0, 8px, 22px, var(--wrapper-shadow));
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+input {
+  padding: 18px 23px;
+  outline: transparent;
+  border: 1px solid var(--input-stroke);
+  color: var(--input-color);
+  font-size: 16px;
+  width: 90%;
+  @include rounded(4px);
+  margin-bottom: 18px;
+  @include box-shadow(0, 6px, 12px, var(--input-shadow));
+  transition: all 0.2s ease-out;
+  &:hover, &:active {
+    border: 1px solid var(--input-stroke-hover);
+    @include box-shadow(0, 6px, 12px, var(--input-shadow-hover));
+  }
+  @media screen and (min-width: 200px) {
+    padding: 10px 10px;
+  }
+  @media screen and (max-width: 270px) {
+    padding: 10px 10px;
+  }
+  @media screen and (min-width: $medium) {
+    padding: 18px 18px;
+  }
+}
+
+button {
+  margin-top: 18px;
+  padding: 9px 27px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  @include rounded(24px);
+  outline: none;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+
+  &.primary {
+    @include gradient(var(--primary400), var(--primary500));
+    @include box-shadow(0, 6px, 12px, var(--primary-shadow));
+    color: var(--primary-text);
+    &:hover {
+      background: var(--primary-hover);
+      @include gradient(var(--primary300), var(--primary400));
+      @include box-shadow(0, 6px, 16px, var(--primary-shadow));
+    }
+  }
+
+  &.secondary {
+    @include gradient(var(--secondary400), var(--secondary500));
+    @include box-shadow(0, 6px, 12px, var(--primary-shadow));
+    color: var(--primary-text);
+    &:hover {
+      background: var(--secondary-hover);
+      @include gradient(var(--secondary300), var(--secondary400));
+      @include box-shadow(0, 6px, 16px, var(--primary-shadow));
+    }
+  }
+
+  &.subtle {
+    background: var(--subtle-color);
+    color: var(--headings-primary);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0;
+  }
+
+  &.primary-subtle {
+    background: var(--primary150);
+    color: var(--primary500);
+    padding: 8px 30px;
+    @include rounded(24px);
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}

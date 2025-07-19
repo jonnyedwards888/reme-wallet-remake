@@ -1,0 +1,162 @@
+/* Wallet Balance Component Styles */
+
+.wallet-balance .wallet-balance-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.wallet-balance .balance-card,
+.wallet-balance .reme-card {
+  background: #fff;
+  border-radius: 32px;
+  padding: 24px;
+  min-width: 360px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.wallet-balance .caps-icon {
+  position: absolute;
+  top: -32px;
+  left: 16px;
+  width: 56px;
+  height: 56px;
+}
+
+.wallet-balance .card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.wallet-balance .card-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-align: center;
+}
+
+.wallet-balance .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  color: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.wallet-balance .card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  padding: 4px 0;
+}
+
+.wallet-balance .card-row span {
+  color: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.wallet-balance .card-row-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 12px;
+  color: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.wallet-balance .card-row-total span {
+  color: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Convert Section Styles */
+.wallet-balance .convert-section {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.wallet-balance .convert-button {
+  background: #7fd3d6;
+  color: #000;
+  border: none;
+  border-radius: 32px;
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  cursor: pointer;
+  min-width: 320px;
+  flex: 1;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.wallet-balance .reme-icon {
+  position: absolute;
+  top: -32px;
+  left: 16px;
+  width: 56px;
+  height: 56px;
+}
+
+.wallet-balance .reme-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wallet-balance .wallet-balance-container,
+  .wallet-balance .convert-section {
+    flex-direction: column;
+  }
+  
+  .wallet-balance .balance-card,
+  .wallet-balance .reme-card {
+    min-width: auto;
+  }
+}
+
+.wallet-balance-heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: 'Poppins', sans-serif;
+} 

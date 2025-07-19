@@ -1,0 +1,27 @@
+/* Dashboard Component Shared Styles */
+
+/* Import modern wallet styles */
+@import '../../../styles/modern-wallet.scss';
+
+/* Import component-specific styles */
+@import './components/WalletBalance.scss';
+@import './components/ServicesSection.scss';
+@import './components/WalletAddress.scss';
+
+/* Override application background for modern dashboard */
+.application.modern-dashboard-active {
+  background: linear-gradient(90deg, #1a0536 0%, rgb(83, 0, 39) 48%, #1a0536 100%) !important;
+  background-image: none !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* Shared styles that might be used across multiple components */
+/* Add any shared styles here if needed in the future */
+
+.homepage .wallet-title .message {
+  color: #fff !important;
+}
+

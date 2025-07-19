@@ -1,0 +1,29 @@
+name: Test Build and Deploy to Firebase
+on:
+  push:
+    branches: [staging]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+        projectId: [reme-wallet-test]
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: build frontend
+        run: |
+          npm install
+          npm run build
+      - uses:  w9jds/firebase-action@master
+        name: deploy service
+        with:
+          args: deploy --only hosting
+        env:
+          PROJECT_ID: ${{ matrix.projectId }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+

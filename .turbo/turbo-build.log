@@ -1,0 +1,25 @@
+
+> remelife-dashboard@1.0.0 build /Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui
+> DISABLE_ESLINT_PLUGIN=true GENERATE_SOURCEMAP=false react-scripts build
+
+Creating an optimized production build...
+[32mCompiled successfully.[39m
+[32m[39m
+File sizes after gzip:
+
+  238.77 kB ([32m-10 B[39m)  [2mbuild/static/js/[22m[36mmain.dce00696.js[39m
+  10.16 kB           [2mbuild/static/css/[22m[36mmain.22a2d548.css[39m
+
+The project was built assuming it is hosted at [32m/[39m.
+You can control this with the [32mhomepage[39m field in your [36mpackage.json[39m.
+
+The [36mbuild[39m folder is ready to be deployed.
+You may serve it with a static server:
+
+  [36mnpm[39m install -g serve
+  [36mserve[39m -s build
+
+Find out more about deployment here:
+
+  [33mhttps://cra.link/deployment[39m
+

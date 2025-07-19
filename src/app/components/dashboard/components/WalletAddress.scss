@@ -1,0 +1,163 @@
+.wallet-address-outer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 32px auto;
+}
+
+.wallet-address-sidebyside {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+    margin: 0 auto 24px auto;
+}
+
+.wallet-address-container {
+    background: linear-gradient(135deg, rgba(125,83,132,0.85) 0%, rgba(169,123,176,0.85) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 20px 28px;
+    margin: 0;
+    min-width: 280px;
+    max-width: 340px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08);
+
+    &.compact {
+        padding: 12px 14px;
+        min-width: 220px;
+        max-width: 260px;
+    }
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.15);
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .wallet-address-label {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.92);
+        margin-bottom: 8px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .wallet-address-display {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .address-text {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 15px;
+            font-weight: 600;
+            color: #ffffff;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 7px 10px;
+            border-radius: 8px;
+            flex: 1;
+            word-break: break-all;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+
+        .address-actions {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            .toggle-button {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                border: none;
+                border-radius: 6px;
+                padding: 5px 10px;
+                font-size: 12px;
+                font-weight: 700;
+                color: white;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                margin: 0;
+                align-self: center;
+
+                &:hover {
+                    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+                    transform: translateY(-1px);
+                    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+                }
+
+                &:active {
+                    transform: translateY(0);
+                }
+            }
+
+            .copy-icon {
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                filter: brightness(0) invert(1);
+                opacity: 0.85;
+
+                &:hover {
+                    opacity: 1;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+.wallet-address-container.convex-address {
+    background: rgba(102, 126, 234, 0.12);
+    border: 1.5px solid #667eea;
+    .wallet-address-label {
+        color: #667eea;
+    }
+    .address-text {
+        background: rgba(102, 126, 234, 0.18);
+        color: #667eea;
+    }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+    .wallet-address-sidebyside {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+    .wallet-address-container {
+        padding: 10px 4px;
+        min-width: 0;
+        max-width: 98vw;
+        .wallet-address-label {
+            font-size: 13px;
+        }
+        .wallet-address-display {
+            flex-direction: column;
+            gap: 6px;
+            .address-text {
+                font-size: 12px;
+                padding: 5px 6px;
+            }
+            .address-actions {
+                width: 100%;
+                justify-content: center;
+                .toggle-button {
+                    padding: 4px 8px;
+                    font-size: 11px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+} 

@@ -1,0 +1,252 @@
+
+> remelife-dashboard@1.0.0 lint /Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui
+> eslint src --ext .ts,.tsx
+
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/HOCs/require-state-or-redirect.tsx[24m[0m
+[0m  [2m4:89[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m5:49[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/HOCs/withAuth.tsx[24m[0m
+[0m   [2m8:63[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m24:57[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/caption/caption.tsx[24m[0m
+[0m  [2m3:43[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/claim-transaction/index.tsx[24m[0m
+[0m  [2m12:12[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m14:19[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m26:54[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m26:69[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m28:32[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m75:31[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/claim-transaction/renderers/password-confirmation.tsx[24m[0m
+[0m  [2m3:62[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/convert-caps/index.tsx[24m[0m
+[0m   [2m15:13[22m  [33mwarning[39m  Unexpected any. Specify a different type        [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m270:21[22m  [33mwarning[39m  A form label must be associated with a control  [2mjsx-a11y/label-has-associated-control[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/dashboard/components/ServicesSection.tsx[24m[0m
+[0m  [2m52:13[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m52:13[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/dashboard/components/WalletAddress.tsx[24m[0m
+[0m  [2m50:29[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m50:29[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/dashboard/index.tsx[24m[0m
+[0m  [2m18:17[22m  [33mwarning[39m  Unexpected any. Specify a different type          [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m19:20[22m  [33mwarning[39m  Unexpected any. Specify a different type          [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m22:18[22m  [33mwarning[39m  Unexpected any. Specify a different type          [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m38:47[22m  [33mwarning[39m  Unexpected any. Specify a different type          [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m38:62[22m  [33mwarning[39m  Unexpected any. Specify a different type          [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m40:32[22m  [33mwarning[39m  Unexpected any. Specify a different type          [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m50:17[22m  [33mwarning[39m  'state' is never reassigned. Use 'const' instead  [2mprefer-const[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/dashboard/renderers/dashboard.tsx[24m[0m
+[0m  [2m13:51[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                        [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m29:33[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m29:33[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/footer/footer.tsx[24m[0m
+[0m   [2m5:42[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                           [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m10:13[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m10:13[22m  [33mwarning[39m  Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  [2mjsx-a11y/no-static-element-interactions[22m[0m
+[0m  [2m11:13[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener                                                                                                     [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m11:13[22m  [33mwarning[39m  Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element  [2mjsx-a11y/no-static-element-interactions[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/forgotten-password/index.tsx[24m[0m
+[0m  [2m19:62[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m21:32[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m37:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/forgotten-password/renderers/forgotten-password.tsx[24m[0m
+[0m  [2m3:59[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/helpers/clear-local-storage.ts[24m[0m
+[0m  [2m1:54[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/insufficient-balance/index.tsx[24m[0m
+[0m  [2m18:57[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m18:72[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m20:32[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/insufficient-balance/renderers/insufficient-balance.tsx[24m[0m
+[0m  [2m3:61[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/login/index.tsx[24m[0m
+[0m  [2m21:43[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m23:32[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m44:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m48:31[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/login/renderers/login.tsx[24m[0m
+[0m   [2m6:47[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                        [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m16:29[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m16:29[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/logout-mobile/index.tsx[24m[0m
+[0m  [2m6:57[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m6:79[22m  [33mwarning[39m  Don't use `{}` as a type. `{}` actually means "any non-nullish value".[0m
+[0m- If you want a type meaning "any object", you probably want `object` instead.[0m
+[0m- If you want a type meaning "any value", you probably want `unknown` instead.[0m
+[0m- If you want a type meaning "empty object", you probably want `Record<string, never>` instead.[0m
+[0m- If you really want a type meaning "any non-nullish value", you probably want `NonNullable<unknown>` instead  [2m@typescript-eslint/ban-types[22m[0m
+[0m  [2m8:32[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/logout-mobile/renderers/logout.tsx[24m[0m
+[0m  [2m3:48[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/logout/index.tsx[24m[0m
+[0m  [2m6:51[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m6:73[22m  [33mwarning[39m  Don't use `{}` as a type. `{}` actually means "any non-nullish value".[0m
+[0m- If you want a type meaning "any object", you probably want `object` instead.[0m
+[0m- If you want a type meaning "any value", you probably want `unknown` instead.[0m
+[0m- If you want a type meaning "empty object", you probably want `Record<string, never>` instead.[0m
+[0m- If you really want a type meaning "any non-nullish value", you probably want `NonNullable<unknown>` instead  [2m@typescript-eslint/ban-types[22m[0m
+[0m  [2m8:32[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/logout/renderers/logout.tsx[24m[0m
+[0m  [2m3:48[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/mnemonic/index.tsx[24m[0m
+[0m  [2m25:46[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m25:61[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m27:32[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m75:36[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/mnemonic/renderers/mnemonic.tsx[24m[0m
+[0m   [2m5:50[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m13:37[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m27:83[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m27:95[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m53:44[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/new-password/index.tsx[24m[0m
+[0m  [2m23:56[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m23:69[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m25:32[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m47:31[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m51:33[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/new-password/renderers/new-password.tsx[24m[0m
+[0m   [2m4:53[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                        [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m13:25[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m13:25[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m  [2m17:25[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m17:25[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/recover-wallet/index.tsx[24m[0m
+[0m   [2m25:59[22m  [33mwarning[39m  Unexpected any. Specify a different type                      [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m25:74[22m  [33mwarning[39m  Unexpected any. Specify a different type                      [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m27:32[22m  [33mwarning[39m  Unexpected any. Specify a different type                      [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m82:31[22m  [33mwarning[39m  Unexpected any. Specify a different type                      [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m86:31[22m  [33mwarning[39m  Unexpected any. Specify a different type                      [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m101:13[22m  [33mwarning[39m  Do not use "@ts-ignore" because it alters compilation errors  [2m@typescript-eslint/ban-ts-comment[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/recover-wallet/renderers/mnemonic-recovery.tsx[24m[0m
+[0m  [2m3:58[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/recover-wallet/renderers/password-recovery.tsx[24m[0m
+[0m   [2m4:58[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                        [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m10:17[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m10:17[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/registration/index.tsx[24m[0m
+[0m  [2m26:50[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m26:63[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m28:32[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m56:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m60:31[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m64:33[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m68:32[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m72:31[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/registration/renderers/registration.tsx[24m[0m
+[0m   [2m7:54[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                        [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m26:29[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m26:29[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m  [2m30:29[22m  [33mwarning[39m  Visible, non-interactive elements with click handlers must have at least one keyboard listener  [2mjsx-a11y/click-events-have-key-events[22m[0m
+[0m  [2m30:29[22m  [33mwarning[39m  Non-interactive elements should not be assigned mouse or keyboard event listeners               [2mjsx-a11y/no-noninteractive-element-interactions[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/title/title.tsx[24m[0m
+[0m  [2m4:41[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/tooltip/index.tsx[24m[0m
+[0m  [2m4:66[22m  [33mwarning[39m  Don't use `{}` as a type. `{}` actually means "any non-nullish value".[0m
+[0m- If you want a type meaning "any object", you probably want `object` instead.[0m
+[0m- If you want a type meaning "any value", you probably want `unknown` instead.[0m
+[0m- If you want a type meaning "empty object", you probably want `Record<string, never>` instead.[0m
+[0m- If you really want a type meaning "any non-nullish value", you probably want `NonNullable<unknown>` instead  [2m@typescript-eslint/ban-types[22m[0m
+[0m  [2m6:32[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/components/tooltip/renderers/tooltip.tsx[24m[0m
+[0m  [2m5:43[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/app/index.tsx[24m[0m
+[0m  [2m21:13[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m22:9[22m   [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m23:12[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m26:36[22m  [33mwarning[39m  Don't use `{}` as a type. `{}` actually means "any non-nullish value".[0m
+[0m- If you want a type meaning "any object", you probably want `object` instead.[0m
+[0m- If you want a type meaning "any value", you probably want `unknown` instead.[0m
+[0m- If you want a type meaning "empty object", you probably want `Record<string, never>` instead.[0m
+[0m- If you really want a type meaning "any non-nullish value", you probably want `NonNullable<unknown>` instead  [2m@typescript-eslint/ban-types[22m[0m
+[0m  [2m28:29[22m  [33mwarning[39m  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                            [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/clients/http-requester.ts[24m[0m
+[0m   [2m3:73[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m3:87[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m27:52[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m31:50[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m31:64[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m35:49[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m35:63[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/clients/remepal-client.ts[24m[0m
+[0m   [2m5:37[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m5:50[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m5:64[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m18:47[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m18:60[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m18:94[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m31:86[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m40:77[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m49:56[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/index.tsx[24m[0m
+[0m  [2m2:10[22m  [33mwarning[39m  ReactDOM.render is deprecated since React 18.0.0, use createRoot instead, see https://reactjs.org/link/switch-to-createroot  [2mreact/no-deprecated[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/services/balance-services.ts[24m[0m
+[0m   [2m9:23[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m10:28[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m25:62[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m35:65[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m36:9[22m   [33mwarning[39m  Unnecessary try/catch wrapper             [2mno-useless-catch[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/services/claim-service/index.ts[24m[0m
+[0m   [2m9:20[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m13:23[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m14:22[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m16:36[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m28:33[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m38:39[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/services/user-service.ts[24m[0m
+[0m   [2m9:70[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m19:51[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m19:85[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m26:86[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m30:77[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m52:56[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/raoasifraza/Documents/code.nosync/src/github.com/my-github-raoasifraza11/reme-monorepo/apps/wallet-ui/src/services/wallet-service.ts[24m[0m
+[0m  [2m27:43[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m31:36[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[33m[1m✖ 144 problems (0 errors, 144 warnings)[22m[39m[0m
+[0m[33m[1m[22m[39m[33m[1m  0 errors and 1 warning potentially fixable with the `--fix` option.[22m[39m[0m
+[0m[33m[1m[22m[39m[0m
